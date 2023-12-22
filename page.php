@@ -29,6 +29,7 @@
       <input type="submit" id="btn" value="Login" name = "submit"/>
     </form>
     <a href="register.php">Register</a>
+    
   </div>
 <script>
   function isvalid() {
