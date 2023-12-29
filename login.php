@@ -12,7 +12,7 @@
         if($count == 1){  
             setcookie("user", $username, time() + 3000, "/","", true, true);
             setcookie("pass", $password, time() + 3000, "/","", true, true);
-            header("Location:cookie_get.php");
+            header("Location: cookie_get.php");
             header("Location: welcome.php");
         }  
         else{  

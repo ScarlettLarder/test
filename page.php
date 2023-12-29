@@ -9,7 +9,7 @@
   <link href="main.css" rel="stylesheet">
 </head>
 <body>
-
+  <a href="order.php">Make an order</a>
   <h1 class="red">
     Hello world!
   </h1>
@@ -29,7 +29,7 @@
       <input type="submit" id="btn" value="Login" name = "submit"/>
     </form>
     <a href="register.php">Register</a>
-    
+    <a href="signout.php">Sign out</a>
   </div>
 <script>
   function isvalid() {

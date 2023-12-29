@@ -1,4 +1,6 @@
 <?php
-    setcookie( 'pass', 'user'); // deletes the cookie named cookie_name
-    Header("Location: page.php");
+    setcookie("user", "", time() - 3600, "/");
+    setcookie("pass", "", time() - 3600, "/");
+    header("Location: page.php");
+    exit();
 ?>
